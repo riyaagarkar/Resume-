@@ -1,0 +1,79 @@
+body {
+    background: #eceff1;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+}
+
+.resume {
+    display: flex;
+    width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* LEFT PANEL */
+.left {
+    width: 30%;
+    background: #263238;
+    color: #fff;
+    padding: 25px;
+}
+
+.left h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+.role {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.left h2 {
+    font-size: 16px;
+    margin-top: 25px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 5px;
+}
+
+.left ul {
+    padding-left: 18px;
+}
+
+/* RIGHT PANEL */
+.right {
+    width: 70%;
+    padding: 35px;
+}
+
+.right h2 {
+    color: #263238;
+    font-size: 18px;
+    border-bottom: 2px solid #263238;
+    padding-bottom: 5px;
+}
+
+.right p, .right li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.right ul {
+    padding-left: 20px;
+}
+
+button {
+    margin-top: 25px;
+    padding: 10px 20px;
+    background: #263238;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #000;
+}
